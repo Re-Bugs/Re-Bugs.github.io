@@ -116,6 +116,9 @@ author:
     - label: "Tstory"
       icon: "fas fa-fw fa-link"
       url: "https://rebugs.tistory.com/"
+    - label: "BOJ"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.acmicpc.net/user/lso_0924"
     
 
 # Site Footer
