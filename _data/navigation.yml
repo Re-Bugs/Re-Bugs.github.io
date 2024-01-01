@@ -2,7 +2,7 @@
 main:
   - title: "Category"
     url: /categories/
-  -title: "Search"
+  - title: "Search"
     url: /search/
 
 docs:
