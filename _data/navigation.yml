@@ -6,10 +6,12 @@ main:
     url: /search/
 
 docs:
-  -title: "대목차"
-   children
-    -title: "Category"
-      url: /categories/
+  - title: "Search"
+    url: /search/
+  - title: "Category"
+    children:
+      - title: "coding"
+        url: /categories/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
