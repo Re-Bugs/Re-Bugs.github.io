@@ -1,13 +1,9 @@
 # main links
 main:
-  - title: "Search"
-    url: /search/
   - title: "Category"
     url: /categories/
 
 docs:
-  - title: "Search"
-    url: /search/
   - title: "Category"
     children:
       - title: "coding"
