@@ -1,22 +1,46 @@
 ---
 layout: archive
 ---
-
-{{ content }}
-
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
-
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
-  {% endfor %}
-</div>
-
-{% include paginator.html %}
+<h2 style="text-align: center;">&nbsp;</h2>
+<p style="text-align: center;"><em>저는 컴퓨터 과학과 프로그래밍에 관심이 많은 개발자입니다.</em></p>
+<p style="text-align: center;"><em>지식은 공유할 때 가장 자신의 것이 된다고 생각합니다.</em></p>
+<p>&nbsp;</p>
+<h2>interest</h2>
+<hr />
+<ol>
+    <li><strong>Web Development</strong></li>
+    <li><strong>Android Applicaiton</strong></li>
+    <li><strong>Data Science</strong></li>
+</ol>
+<p>&nbsp;</p>
+<h2><strong>Skills</strong></h2>
+<hr />
+<ul>
+    <li><strong>Language : Java, Python, javaScript, Kotlin</strong></li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+    <li><strong>Backend : Spring, SpringBoot</strong></li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+    <li><strong>Frontend : React, Vue.js</strong></li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+    <li><strong>DevOps : AWS(EC2, RDS, S3)</strong></li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+    <li><strong>Database : MySQL, Oracle</strong></li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+    <li><strong>Tool : Git, GitHub,&nbsp;IntelliJ, Eclipse, Visual Studio Code</strong></li>
+</ul>
+<p>&nbsp;</p>
+<h2>Study Log</h2>
+<hr />
+<ul>
+    <li><strong>2023.12 ~ 현재 : AWS, Spring, SpringBoot</strong></li>
+</ul>

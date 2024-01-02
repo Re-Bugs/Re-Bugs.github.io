@@ -1,7 +1,11 @@
 # main links
 main:
+  - title: "About Me"   # 보여지는 이름 
+    url: https://re-bugs.github.io/ # 이동하는 url
   - title: "Category"
     url: /categories/
+  - title: "Post by year"
+    url: /year-archive/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
