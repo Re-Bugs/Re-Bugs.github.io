@@ -15,7 +15,7 @@
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko-RK"
+locale                   : "ko-KR"
 title                    : "ReBugs"
 title_separator          : "-"
 subtitle                 : "Computer Science & Programming"
