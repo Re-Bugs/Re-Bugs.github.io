@@ -3,6 +3,12 @@ main:
   - title: "Category"
     url: /categories/
 
+counts:
+  - title: "Category"
+    use: true
+  - title: "Tag"
+    use: false
+
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
