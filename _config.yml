@@ -61,7 +61,7 @@ atom_feed:
   hide                   : true
 search                   : true #검색 버튼 기능 활성
 search_full_content      : true #블로그 제목 뿐 아니라 내용까지 검색
-search_provider          : 
+search_provider          : "google"
 lunr:
   search_within_pages    : false #불필요한 검색 제거
 algolia:
