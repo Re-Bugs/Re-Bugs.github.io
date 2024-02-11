@@ -12,30 +12,30 @@ main:
         url: /categories/java
       - title: Spring & Boot
         url: /categories/spring
-      - title: Linux
-        url: /categories/linux
-      - title: AWS
-        url: /categories/aws
-  - title: Study Notes
-    sublinks:
-      - title: Database
-        url: /categories/database
-      - title: Data Structure
-        url: /categories/datastructure
-      - title: Algorithm
-        url: /categories/algorithm
-      - title: Network
-        url: /categories/network
-      - title: Error Notes
-        url: /categories/errnote
-      - title: Other
-        url: /categories/study_other
-  - title: Interests
-    sublinks:
-      - title: Jekyll Blog
-        url: /categories/blog
-      - title: Other
-        url: /categories/interests_other
+  #     - title: Linux
+  #       url: /categories/linux
+  #     - title: AWS
+  #       url: /categories/aws
+  # - title: Study Notes
+  #   sublinks:
+  #     - title: Database
+  #       url: /categories/database
+  #     - title: Data Structure
+  #       url: /categories/datastructure
+  #     - title: Algorithm
+  #       url: /categories/algorithm
+  #     - title: Network
+  #       url: /categories/network
+  #     - title: Error Notes
+  #       url: /categories/errnote
+  #     - title: Other
+  #       url: /categories/study_other
+  # - title: Interests
+  #   sublinks:
+  #     - title: Jekyll Blog
+  #       url: /categories/blog
+  #     - title: Other
+  #       url: /categories/interests_other
 
 
 
