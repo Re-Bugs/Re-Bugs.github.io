@@ -1,17 +1,54 @@
 # main links
 main:
-  - title: "About Me"   # 보여지는 이름 
-    url: https://re-bugs.github.io/ # 이동하는 url
   - title: "Category"
     url: /categories/
-  - title: "Post by year"
-    url: /year-archive/
+ # - title: Projects
+  #   sublinks:
+  #     - title: 프로젝트명
+  #       url: /categories/프로젝트주소
+  - title: Back-End
+    sublinks:
+      - title: Java
+        url: /categories/java
+      - title: Spring & Boot
+        url: /categories/spring
+      - title: Linux
+        url: /categories/linux
+      - title: AWS
+        url: /categories/aws
+  - title: Study Notes
+    sublinks:
+      - title: Database
+        url: /categories/database
+      - title: Data Structure
+        url: /categories/datastructure
+      - title: Algorithm
+        url: /categories/algorithm
+      - title: Network
+        url: /categories/network
+      - title: Error Notes
+        url: /categories/errnote
+      - title: Other
+        url: /categories/study_other
+  - title: Interests
+    sublinks:
+      - title: Jekyll Blog
+        url: /categories/blog
+      - title: Other
+        url: /categories/interests_other
 
+
+
+  # TITLE/URL EXAMPLE
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  #
+  # DROP DOWN BUTTON EXAMPLE
+  # - title: Support
+  #   sublinks:
+  #     - title: FAQ
+  #       url: /faq/
+  #     - title: Documentation
+  #       url: /Documentation/
+  #     - title: Customer Support
+  #       url: /Support/
