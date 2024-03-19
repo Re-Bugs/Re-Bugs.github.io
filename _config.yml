@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -25,7 +25,7 @@ url                      : "https://Re-Bugs.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : 
+logo                     : "/assets/images/github.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 #breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -59,11 +59,11 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : true
-search                   : true #검색 버튼 기능 활성
-search_full_content      : true #블로그 제목 뿐 아니라 내용까지 검색
-search_provider          : "google"
+search                   : true
+search_full_content      : # true, false (default)
+search_provider          : # lunr (default), algolia, google
 lunr:
-  search_within_pages    : false #불필요한 검색 제거
+  search_within_pages    : # true, false (default)
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -108,7 +108,7 @@ author:
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : "Life is a Matter of Direction not Speed"
   location         : "Republic Of Korea"
-  email            : "leesw_0924@icloud.com"
+  email            : "leesw@gmail.com"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
