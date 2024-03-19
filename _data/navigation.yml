@@ -1,17 +1,14 @@
 # main links
 main:
-  - title: "About Me"   # 보여지는 이름 
-    url: https://re-bugs.github.io/ # 이동하는 url
-  - title: "Category"
+  - title: "Projects"
     url: /categories/
-  - title: "Post by year"
-    url: /year-archive/
+  - title: TIL(Tistory Blog)
+    url: https://rebugs.tistory.com/
+  
 
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+
+# counts:
+#   - title: "카테고리"
+#     use: true
+#   - title: "태그"
+#     use: false
