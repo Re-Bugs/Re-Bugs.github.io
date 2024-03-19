@@ -6,12 +6,12 @@ main:
   #   sublinks:
   #     - title: 프로젝트명
   #       url: /categories/프로젝트주소
-  - title: Back-End
-    sublinks:
-      - title: Java
-        url: /categories/java
-      - title: Spring & Boot
-        url: /categories/spring
+  # - title: Back-End
+  #   sublinks:
+  #     - title: Java
+  #       url: /categories/java
+  #     - title: Spring & Boot
+  #       url: /categories/spring
   #     - title: Linux
   #       url: /categories/linux
   #     - title: AWS
